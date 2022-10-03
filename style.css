@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Rubik";
+  font-size: 2vw;
+  color: #22285c;
+  margin-bottom: 5vh;
+}
+
+header {
+  background-image: url("assets/multiverse.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "\279D\ ";
+}
+
+.full-width {
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.indent {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#top-flex img {
+  width: 20%;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item img {
+  width: 90%;
+  margin-left: 1vw;
+}
+
+#skate-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#skate-container img {
+  width: 40%;
+}
